@@ -1,0 +1,10 @@
+^D:\FILES\C++PROJECTS\IMAGES GENERATE\CMAKELISTS.TXT
+setlocal
+"E:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/files/C++projects/images generate" "-BD:/files/C++projects/images generate/build" --check-stamp-file "D:/files/C++projects/images generate/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
