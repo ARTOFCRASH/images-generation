@@ -344,7 +344,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\files\C++projects\images generate\pp.cpp" />
+    <ClCompile Include="D:\files\C++projects\images generate\main.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
